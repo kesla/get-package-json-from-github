@@ -1,6 +1,6 @@
 {
   "name": "get-package-json-from-github",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get package.json from github",
   "main": "dist/index.js",
   "scripts": {
