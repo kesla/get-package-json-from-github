@@ -20,6 +20,15 @@ getPackageJsonFromGithub('git+https://github.com/kesla/get-package-json-from-git
     console.log('packageJson', packageJson);
   });
 
+// can also load a caching version
+
+const cached = getPackageJsonFromGithub.cached();
+
+cached('git+https://github.com/kesla/get-package-json-from-github.git')
+  .then(packageJson => {
+    console.log('packageJson', packageJson);
+  });
+
 ```
 
 ## Tests
@@ -31,6 +40,7 @@ npm test
 
 ## Dependencies
 
+- [async-cache-promise](https://github.com/kesla/async-cache-promise): async-cache - but with promises
 - [babel-cli](https://github.com/babel/babel/tree/master/packages): Babel command line.
 - [babel-core](https://github.com/babel/babel/tree/master/packages): Babel compiler core.
 - [babel-preset-es2015](https://github.com/babel/babel/tree/master/packages): Babel preset for all es2015 plugins.
