@@ -46,6 +46,7 @@ npm test
 - [babel-preset-es2015](https://github.com/babel/babel/tree/master/packages): Babel preset for all es2015 plugins.
 - [babel-tape-runner](https://github.com/wavded/babel-tape-runner): Babel + Tape for running your ES Next tests
 - [gh-got](https://github.com/sindresorhus/gh-got): Convenience wrapper for `got` to interact with the GitHub API
+- [immutable-object-methods](https://github.com/micnews/immutable-object-methods): Update normal plain javascript object, immutable style. Simlar to how immutable.js, seamless-immutable etc does it but a lot smaller and simpler.
 - [npm-package-arg](https://github.com/npm/npm-package-arg): Parse the things that can be arguments to `npm install`
 - [semistandard](https://github.com/Flet/semistandard): All the goodness of `feross/standard` with semicolons sprinkled on top.
 - [snazzy](https://github.com/feross/snazzy): Format JavaScript Standard Style as Stylish (i.e. snazzy) output
