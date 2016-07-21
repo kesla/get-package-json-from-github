@@ -32,7 +32,7 @@
     "tapava": "^2.2.0"
   },
   "dependencies": {
-    "async-cache-promise": "^2.0.2",
+    "fast-cache": "^1.1.0",
     "gh-got": "^4.0.0",
     "immutable-object-methods": "^1.2.1",
     "npm-package-arg": "^4.2.0"

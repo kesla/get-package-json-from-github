@@ -40,7 +40,7 @@ npm test
 
 ## Dependencies
 
-- [async-cache-promise](https://github.com/kesla/async-cache-promise): async-cache - but with promises
+- [fast-cache](https://github.com/kesla/fast-cache): Caches a method that returns a promise and does so really fast.
 - [gh-got](https://github.com/sindresorhus/gh-got): Convenience wrapper for `got` to interact with the GitHub API
 - [immutable-object-methods](https://github.com/micnews/immutable-object-methods): Update normal plain javascript object, immutable style. Simlar to how immutable.js, seamless-immutable etc does it but a lot smaller and simpler.
 - [npm-package-arg](https://github.com/npm/npm-package-arg): Parse the things that can be arguments to `npm install`
