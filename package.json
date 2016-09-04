@@ -27,7 +27,7 @@
     "babel-preset-es2015-node4": "^2.1.0",
     "babel-tape-runner": "^2.0.1",
     "package-json-to-readme": "^1.5.1",
-    "semistandard": "^8.0.0",
+    "semistandard": "^9.0.0",
     "snazzy": "^4.0.0",
     "tapava": "^2.2.0"
   },
